@@ -3,17 +3,17 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { SignInComponent } from './signin/signin.component';
-import { HomeComponent } from './home.component';
+import { LoginComponent } from './login.component';
 
 const routes: Routes = [
     {
         path: '',
         pathMatch: 'full',
-        redirectTo: 'home'
+        redirectTo: 'login'
     },
     {
-        path: 'home',
-        component: HomeComponent,
+        path: 'login',
+        component: LoginComponent,
         canActivate: [LoginGuard],
         children:[
             {
@@ -34,6 +34,6 @@ const routes: Routes = [
     ],
     exports: [RouterModule]
 })
-export class HomeRoutingModule {
+export class LoginRoutingModule {
 
 }
