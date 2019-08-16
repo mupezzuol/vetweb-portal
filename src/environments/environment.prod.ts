@@ -1,3 +1,5 @@
+// Environment -> Prod -> dist
 export const environment = {
-  production: true
+  production: false,
+  apiVetwebUrl: 'http://www.vetweb.com',
 };
