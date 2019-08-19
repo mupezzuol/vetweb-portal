@@ -2,4 +2,5 @@
 export const environment = {
   production: false,
   apiVetwebUrl: 'http://www.homolog.vetweb.com',
+  apiVetwebContext: '/vetweb-api'
 };

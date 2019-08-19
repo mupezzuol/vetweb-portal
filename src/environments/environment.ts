@@ -2,4 +2,5 @@
 export const environment = {
   production: false,
   apiVetwebUrl: 'http://localhost:8080/vetweb-api',
+  apiVetwebContext: '/vetweb-api'
 };
